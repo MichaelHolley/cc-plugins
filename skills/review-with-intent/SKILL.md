@@ -22,7 +22,7 @@ Expected input from the user:
   - a named branch
   - an explicit commit range
 
-If intent source is missing, ask for it before proceeding.
+If intent source is missing but a PR is provided, check the PR description for linked issues (e.g. `Closes #42`, `Fixes #42`, bare `#42` references) before asking — fetch the linked issue and use it as the intent source. Only ask if no intent can be found this way.
 
 # Tools and environment assumptions
 
