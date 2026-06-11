@@ -1,7 +1,7 @@
 {
-  "name": "michaelholley-skills",
-  "displayName": "Michael Holley's Skills",
-  "version": "1.0.0",
+  "name": "dev-workflows",
+  "displayName": "Michael Holley's Dev Workflows",
+  "version": "0.0.1",
   "description": "A collection of Claude Code skills for code review, PR management, and development workflows.",
   "author": {
     "name": "Michael Holley",
