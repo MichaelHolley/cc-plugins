@@ -1,0 +1,14 @@
+{
+  "name": "michaelholley-skills",
+  "owner": {
+    "name": "Michael Holley",
+    "email": "michael.philipp.holley@gmail.com",
+    "url": "https://michaelholley.de/"
+  },
+  "plugins": [
+    {
+      "source": "./",
+      "name": "michaelholley-skills"
+    }
+  ]
+}
