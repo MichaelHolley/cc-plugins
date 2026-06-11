@@ -34,11 +34,9 @@ If intent source is missing, ask for it before proceeding.
 
 Follow this approach strictly in order:
 
-## Step 1 — Extract intent (subagent)
+## Step 1 — Extract intent
 
-Spawn a subagent to extract the structured intent from the provided source.
-
-The subagent must produce:
+Extract the structured intent from the provided source. Produce:
 
 - **Goal** — one-sentence summary of the intent
 - **Scope** — what is in and out of scope (inferred if not explicit)
