@@ -1,15 +1,18 @@
-# Skills
+# Claude Code Plugins
 
-## Installation
+## Skills
 
 Install skills via
 
 ```sh
-npx skills add michaelholley/skills --skill='the-skill-name'
+npx skills add michaelholley/cc-plugins --skill='the-skill-name'
 ```
 
-or use the claude code marketplace and install the plugin
+## CC Marketplace
+
+Use the claude code marketplace and install the plugins
 
 ```sh
-/marketplace
+/plugin marketplace add MichaelHolley/cc-plugins
+/plugin install dev-workflows@michaelholley
 ```
