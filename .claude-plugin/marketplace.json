@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "michaelholley",
   "metadata": {
-    "description": "A collection of Claude Code skills for code review, PR management, and development workflows."
+    "description": "Michael Holley's personal marketplace for Claude Code."
   },
   "owner": {
     "name": "Michael Holley",
