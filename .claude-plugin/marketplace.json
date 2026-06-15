@@ -11,15 +11,16 @@
   },
   "plugins": [
     {
-      "source": "./",
-      "name": "dev-workflows"
+      "name": "dev-workflows",
+      "source": "./"
     },
     {
       "name": "grill-with-docs",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/engineering/grill-with-docs"
+        "path": "skills/engineering/grill-with-docs",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       }
     },
     {
@@ -27,7 +28,8 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/productivity/grill-me"
+        "path": "skills/productivity/grill-me",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       }
     },
     {
@@ -35,7 +37,8 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/productivity/caveman"
+        "path": "skills/productivity/caveman",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       }
     },
     {
@@ -43,7 +46,8 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/productivity/write-a-skill"
+        "path": "skills/productivity/write-a-skill",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       }
     }
   ]
