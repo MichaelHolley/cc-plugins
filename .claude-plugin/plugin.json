@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "dev-workflows",
   "displayName": "Michael Holley's Dev Workflows",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My collection of Claude Code skills, mcps and agents for rapid development workflows.",
   "author": {
     "name": "Michael Holley",

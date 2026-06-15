@@ -13,6 +13,38 @@
     {
       "source": "./",
       "name": "dev-workflows"
+    },
+    {
+      "name": "grill-with-docs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/engineering/grill-with-docs"
+      }
+    },
+    {
+      "name": "grill-me",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/productivity/grill-me"
+      }
+    },
+    {
+      "name": "caveman",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/productivity/caveman"
+      }
+    },
+    {
+      "name": "write-a-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/productivity/write-a-skill"
+      }
     }
   ]
 }
