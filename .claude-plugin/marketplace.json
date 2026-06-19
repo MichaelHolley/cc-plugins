@@ -15,15 +15,6 @@
       "source": "./"
     },
     {
-      "name": "grill-with-docs",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/engineering/grill-with-docs",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      }
-    },
-    {
       "name": "grill-me",
       "source": {
         "source": "git-subdir",
