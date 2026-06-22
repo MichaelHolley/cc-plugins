@@ -1,6 +1,6 @@
 ---
 name: review-with-intent
-description: Review a PR, branch, or set of changes against a user-provided intent. Extracts structured intent and acceptance criteria from a GitHub issue number, pasted description, or free-form text, then compares the actual implementation against that intent. Highlights matches, divergences, gaps, and basic quality. Use when the user wants to validate that code changes fulfill a specific goal, ticket, or requirement, or when reviewing a PR against its stated purpose.
+description: Review a PR, branch, or diff against a user-provided intent — a GitHub issue, pasted spec, or free-form description — surfacing matches, gaps, divergences, and basic quality. Use to validate that changes fulfill their stated goal or ticket.
 ---
 
 # Goal
