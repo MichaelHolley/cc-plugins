@@ -20,7 +20,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/grill-me",
-        "sha": "6eeb81b5fcfeeb5bd531dd47ab2f9f2bbea27461"
+        "sha": "5d78bd0903420f97c791f834201e550c765699f8"
       }
     },
     {
@@ -29,16 +29,16 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/caveman",
-        "sha": "6eeb81b5fcfeeb5bd531dd47ab2f9f2bbea27461"
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       }
     },
     {
-      "name": "write-a-skill",
+      "name": "writing-great-skills",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/productivity/write-a-skill",
-        "sha": "6eeb81b5fcfeeb5bd531dd47ab2f9f2bbea27461"
+        "path": "skills/productivity/writing-great-skills",
+        "sha": "5d78bd0903420f97c791f834201e550c765699f8"
       }
     },
     {
