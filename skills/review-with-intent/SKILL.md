@@ -3,10 +3,6 @@ name: review-with-intent
 description: Review a PR, branch, or diff against a user-provided intent — a GitHub issue, pasted spec, or free-form description — surfacing matches, gaps, divergences, and basic quality. Use to validate that changes fulfill their stated goal or ticket.
 ---
 
-# Goal
-
-Validate that code changes actually do what they are supposed to do. Extracts the intended behavior from a user-provided source (GitHub issue, pasted spec, free-form description), then review the diff against that intent — surfacing where the code matches, where it diverges, what is missing, and whether the implementation quality is sound.
-
 # Inputs
 
 Expected input from the user:
@@ -23,12 +19,6 @@ Expected input from the user:
   - an explicit commit range
 
 If intent source is missing but a PR is provided, check the PR description for linked issues (e.g. `Closes #42`, `Fixes #42`, bare `#42` references) before asking — fetch the linked issue and use it as the intent source. Only ask if no intent can be found this way.
-
-# Tools and environment assumptions
-
-- Current working directory is a local clone of the target repository
-- `gh` is installed and authenticated (for fetching GitHub issues or PR diffs)
-- `git` is available
 
 # High-level behavior
 
@@ -61,38 +51,7 @@ Do NOT perform a full deep code review. Focus on whether the intent is met.
 
 ## Step 4 — Report
 
-Produce a structured report (see format below). Keep it concise. Do not pad.
-
-# Report format
-
-```
-## Intent summary
-<one-sentence goal from Step 1>
-
-## Acceptance criteria
-- [ ] <criterion> — <MET / PARTIALLY MET / NOT MET>
-- [ ] ...
-
-## Matches
-- <what the implementation gets right relative to the intent>
-
-## Gaps
-- <what is missing or unaddressed>
-
-## Divergences
-- <where the implementation contradicts or misinterprets the intent>
-
-## Scope creep
-- <changes outside the stated scope, if any>
-
-## Implementation quality
-- <notable quality observations — positive or negative>
-
-## Verdict
-<one or two sentences: does this implementation fulfill the intent? What is the most important thing to address?>
-```
-
-Omit any section that is empty (e.g. no divergences → omit that section).
+Produce a structured report following [REPORT_FORMAT.md](REPORT_FORMAT.md). Keep it concise. Do not pad.
 
 # Gotchas
 

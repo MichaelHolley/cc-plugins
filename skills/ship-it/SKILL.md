@@ -5,13 +5,11 @@ description: "Execute a unit of work end-to-end: plan, implement with tests, val
 
 # Ship It
 
-Take a unit of work from intent to committed change: plan, build, validate, commit.
-
 ## Workflow
 
 ### 1. Understand
 
-Read any referenced plan, issue, or PRD. Explore the codebase for the relevant files, patterns, and conventions. If the task is ambiguous, ask the user to clarify scope before proceeding — don't guess past a user-owned decision.
+Read any referenced plan, issue, or PRD. Explore the codebase for the relevant files, patterns, and conventions. If the task is ambiguous, ask the user to clarify scope before proceeding — don't guess past a user-owned decision. Done when you can name the files to change and why.
 
 ### 2. Plan
 
@@ -21,7 +19,7 @@ If the task isn't already planned, create a short plan: ordered steps, files tou
 
 Build the plan, matching the surrounding code's style.
 
-**Add or update tests** covering the new behavior and its edge cases. If the repo has no test setup, propose the minimal one rather than skipping tests silently.
+**Add or update tests** covering the new behavior and its edge cases. If the repo has no test setup, propose the minimal one rather than skipping tests silently. Done when every plan step is reflected in code and tests.
 
 ### 4. Validate
 

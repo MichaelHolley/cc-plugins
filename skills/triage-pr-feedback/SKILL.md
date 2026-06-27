@@ -1,13 +1,7 @@
 ---
 name: triage-pr-feedback
-description: Read all reviews, review comments, and conversation comments on a GitHub PR by number via the gh CLI, then group the feedback into categories and prioritize it into an action list. Use when the user wants to triage, summarize, or get an action plan for PR feedback.
+description: Read all reviews, review comments, and conversation comments on a GitHub PR by number via the gh CLI, then group the feedback into categories and prioritize it into an action list. Triage report only — do not post replies or change code. Use when the user wants to triage, summarize, or get an action plan for PR feedback.
 ---
-
-# Goal
-
-Turn the scattered feedback on a pull request into a single prioritized action list. Read **all** feedback streams on the PR, group each entry into a clear category, prioritize, and present a report that tells the user what to address first. This is a **triage report only** — do not post replies and do not change code. End by surfacing the critical and high-priority items.
-
-This is distinct from `review-with-intent` (which validates a diff against a stated goal). Here the input is the _humans' feedback_, not the code's correctness.
 
 # Inputs
 
@@ -15,12 +9,6 @@ Expected from the user:
 
 - a **PR number** (required), e.g. `123`
 - optional focus, such as "only blocking items", "ignore nitpicks", "what's still unresolved"
-
-# Tools and environment assumptions
-
-- Current working directory is a local clone of the target repository
-- `gh` is installed and authenticated
-- The git remote points to the repository containing the PR
 
 # High-level behavior
 
@@ -31,7 +19,7 @@ Follow this order:
 3. Normalize every entry to: author, stream, body, file/line (if any), created time, resolved/outdated flag, contained `suggestion` blocks.
 4. Categorize each actionable entry (see [Categories](#categories)). Exclude resolved/outdated from the action list but report the count.
 5. Assign a priority to each entry (see [Prioritization](#prioritization)).
-6. Present the report (see [Output](#output)), leading with critical/high items.
+6. Present the report (see [Triage report](#triage-report)), leading with critical/high items.
 
 # Fetching feedback
 
@@ -88,7 +76,7 @@ When a comment fits two categories, pick the higher-impact one. A `CHANGES_REQUE
 
 Within a priority, rank by: repeated by multiple reviewers > maintainer/code-owner author > recency.
 
-# Output
+# Triage report
 
 Present, in this order:
 
