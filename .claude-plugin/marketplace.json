@@ -49,6 +49,14 @@
         "path": "skills/btca-local",
         "sha": "864e5ba452566c318d60f75229882233b2a5c120"
       }
+    },
+    {
+      "name": "humanizer",
+      "source": {
+        "source": "git",
+        "url": "https://github.com/blader/humanizer.git",
+        "sha": "1b48564898e999219882660237fde01bf4843a0f"
+      }
     }
   ]
 }
