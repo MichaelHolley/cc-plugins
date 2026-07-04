@@ -53,10 +53,10 @@
     {
       "name": "humanizer",
       "source": {
-        "source": "git",
-        "url": "https://github.com/blader/humanizer.git",
-        "sha": "1b48564898e999219882660237fde01bf4843a0f"
-      }
+        "source": "github",
+        "repo": "blader/humanizer"
+      },
+      "description": "Remove signs of AI-generated writing from text, making it sound more natural and human."
     }
   ]
 }
