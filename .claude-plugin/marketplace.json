@@ -12,7 +12,8 @@
   "plugins": [
     {
       "name": "dev-workflows",
-      "source": "./"
+      "source": "./",
+      "description": "My collection of Claude Code skills, mcps and agents for rapid development workflows."
     },
     {
       "name": "grill-me",
@@ -21,7 +22,8 @@
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/grill-me",
         "sha": "1445797da5ee4e4054233878c0029e9276f9986a"
-      }
+      },
+      "description": "A relentless interview to sharpen a plan or design."
     },
     {
       "name": "caveman",
@@ -30,7 +32,8 @@
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/caveman",
         "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      }
+      },
+      "description": "Ultra-compressed communication mode that cuts token usage ~75% while keeping full technical accuracy."
     },
     {
       "name": "writing-great-skills",
@@ -39,7 +42,8 @@
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/writing-great-skills",
         "sha": "1445797da5ee4e4054233878c0029e9276f9986a"
-      }
+      },
+      "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable."
     },
     {
       "name": "btca-local",
@@ -48,7 +52,8 @@
         "url": "https://github.com/davis7dotsh/better-context.git",
         "path": "skills/btca-local",
         "sha": "864e5ba452566c318d60f75229882233b2a5c120"
-      }
+      },
+      "description": "A better way to get up to date context on libraries/technologies in your projects. Call with \"use btca\"."
     },
     {
       "name": "humanizer",
