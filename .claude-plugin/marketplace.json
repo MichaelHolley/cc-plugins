@@ -23,7 +23,10 @@
         "path": "skills/productivity/grill-me",
         "sha": "1445797da5ee4e4054233878c0029e9276f9986a"
       },
-      "description": "A relentless interview to sharpen a plan or design."
+      "description": "A relentless interview to sharpen a plan or design.",
+      "author": {
+        "name": "Matt Pocock"
+      }
     },
     {
       "name": "caveman",
@@ -33,7 +36,10 @@
         "path": "skills/productivity/caveman",
         "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       },
-      "description": "Ultra-compressed communication mode that cuts token usage ~75% while keeping full technical accuracy."
+      "description": "Ultra-compressed communication mode that cuts token usage ~75% while keeping full technical accuracy.",
+      "author": {
+        "name": "Matt Pocock"
+      }
     },
     {
       "name": "writing-great-skills",
@@ -43,7 +49,10 @@
         "path": "skills/productivity/writing-great-skills",
         "sha": "1445797da5ee4e4054233878c0029e9276f9986a"
       },
-      "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable."
+      "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.",
+      "author": {
+        "name": "Matt Pocock"
+      }
     },
     {
       "name": "btca-local",
@@ -53,7 +62,10 @@
         "path": "skills/btca-local",
         "sha": "864e5ba452566c318d60f75229882233b2a5c120"
       },
-      "description": "A better way to get up to date context on libraries/technologies in your projects. Call with \"use btca\"."
+      "description": "A better way to get up to date context on libraries/technologies in your projects. Call with \"use btca\".",
+      "author": {
+        "name": "Ben Davis"
+      }
     },
     {
       "name": "humanizer",
