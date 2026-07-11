@@ -1,5 +1,7 @@
 # Claude Code Plugins
 
+A marketplace for AI harnesses which support marketplaces like Claude Code, OMP and more.
+
 ## Skills
 
 Install skills via
