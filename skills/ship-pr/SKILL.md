@@ -36,13 +36,14 @@ Detect and run the project's validation scripts; fix failures and re-run until g
 
 ### 6. Ship
 
-Show the diff summary and proposed message, confirm, then commit, push the branch, and open the PR (`gh pr create`). **Done when** the PR exists and its URL is reported.
+Show the diff summary and proposed message, confirm, then commit, push the branch, and open the PR (`gh pr create`). If the repo has a PR template fill it out and use it as the PR body. **Done when** the PR exists and its URL is reported.
 
 ### 7. Review loop
 
 Spawn a subagent to review the pushed changes and return actionable findings. The loop is **green** only when a review pass returns zero actionable findings — one clean pass, not an assumption.
 
 Each round:
+
 1. Fix every finding from the current pass.
 2. Re-run **Validate** (step 5), then commit and push so the PR reflects the fixes.
 3. Spawn a fresh review subagent over the updated diff.
