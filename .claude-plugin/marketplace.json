@@ -20,8 +20,8 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/productivity/grill-me",
-        "sha": "1445797da5ee4e4054233878c0029e9276f9986a"
+        "path": "skills/productivity/grilling",
+        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
       },
       "description": "A relentless interview to sharpen a plan or design.",
       "author": {
