@@ -29,6 +29,19 @@
       }
     },
     {
+      "name": "resolving-merge-conflict",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/engineering/resolving-merge-conflicts",
+        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
+      },
+      "description": "Work through an in-progress git merge or rebase conflict hunk by hunk, resolving by intent traced to each side's primary source, then finish the operation — never --abort.",
+      "author": {
+        "name": "Matt Pocock"
+      }
+    },
+    {
       "name": "caveman",
       "source": {
         "source": "git-subdir",
