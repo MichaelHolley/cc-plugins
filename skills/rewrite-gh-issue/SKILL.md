@@ -1,6 +1,7 @@
 ---
 name: rewrite-gh-issue
 description: Rewrite an existing GitHub issue for the current repository using the GitHub CLI, codebase context, and any matching issue template. Use when the user wants to improve, clarify, normalize, or fully rewrite a GitHub issue by issue number.
+argument-hint: <issue-number>
 ---
 
 # Inputs
