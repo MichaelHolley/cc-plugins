@@ -9,6 +9,16 @@ Expected from the user:
 
 - a **PR number** (required), e.g. `123`
 - optional focus, such as "only blocking items", "ignore nitpicks", "what's still unresolved"
+- optional **options** (see [Options](#options)), passed as keywords, e.g. `short`
+
+# Options
+
+Recognized modifiers the user may include. Match case-insensitively; more than one may apply.
+
+- **`short`** — Condensed report. Drop verbatim reviewer quotes and `suggestion` blocks; replace each entry's quoted words with a one-line paraphrased summary. Keep priority · category · `file:line` · author. Skip the P2/P3 detail beyond counts. Still end with the Recommendation.
+- **`full`** (default) — The complete report described in [Triage report](#triage-report), including verbatim quotes and suggestion blocks.
+
+When no option is given, behave as `full`.
 
 # High-level behavior
 
