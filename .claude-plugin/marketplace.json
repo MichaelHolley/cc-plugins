@@ -94,6 +94,19 @@
       }
     },
     {
+      "name": "handoff",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/productivity/handoff",
+        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
+      },
+      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "author": {
+        "name": "Matt Pocock"
+      }
+    },
+    {
       "name": "btca-local",
       "source": {
         "source": "git-subdir",
