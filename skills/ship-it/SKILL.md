@@ -26,3 +26,7 @@ Run the project's validation until **green**, fixing failures and re-running. Ne
 ### 5. Commit
 
 Show the diff summary and proposed message, and **confirm before committing**. Branch first if on `main`. Don't push or open a PR unless asked.
+
+### 6. Hand Off
+
+Close with a short summary of what changed and how the user can verify it themselves — the concrete command to run, the URL or screen to open, and what they should see.
