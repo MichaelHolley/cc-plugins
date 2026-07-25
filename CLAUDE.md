@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A Claude Code **marketplace** plus the `dev-workflows` **plugin** it ships. There is no source code, no build, no test suite, and no `package.json` — the deliverable is markdown skills and two JSON manifests. Validation means: the JSON parses, the frontmatter is right, and the pinned shas resolve.
+A Claude Code **marketplace** plus the `dev-workflows` **plugin** it ships.
 
 ## Two layers, don't confuse them
 
