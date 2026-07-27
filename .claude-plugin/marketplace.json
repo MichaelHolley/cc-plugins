@@ -47,7 +47,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/caveman",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
+        "sha": "0a4b76776dfd9979bfe013d99b5562a03b743839"
       },
       "description": "Ultra-compressed communication mode that cuts token usage ~75% while keeping full technical accuracy.",
       "author": {
@@ -60,7 +60,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/writing-great-skills",
-        "sha": "1445797da5ee4e4054233878c0029e9276f9986a"
+        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
       },
       "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.",
       "author": {
