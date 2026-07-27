@@ -1,6 +1,8 @@
 # Claude Code Plugins
 
-A marketplace for AI harnesses which support marketplaces like Claude Code, OMP and more.
+Personal Claude Code marketplace — skills, MCPs, and agents for shipping code faster.
+
+Supported in any harness with marketplace like Claude-Code, oh-my-pi, ...
 
 ## Skills
 
