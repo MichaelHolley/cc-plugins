@@ -21,7 +21,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/grilling",
-        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
+        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
       },
       "description": "A relentless interview to sharpen a plan or design.",
       "author": {
@@ -34,7 +34,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/engineering/resolving-merge-conflicts",
-        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
+        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
       },
       "description": "Work through an in-progress git merge or rebase conflict hunk by hunk, resolving by intent traced to each side's primary source, then finish the operation — never --abort.",
       "author": {
@@ -73,7 +73,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/engineering/to-spec",
-        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
+        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
       },
       "description": "Turn the current conversation into a spec and publish it to the project issue tracker — synthesis of what you've already discussed, no interview.",
       "author": {
@@ -86,7 +86,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/engineering/to-tickets",
-        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
+        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
       },
       "description": "Break a plan, spec, or conversation into tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker.",
       "author": {
@@ -99,7 +99,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/handoff",
-        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
+        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
       },
       "description": "Compact the current conversation into a handoff document for another agent to pick up.",
       "author": {
