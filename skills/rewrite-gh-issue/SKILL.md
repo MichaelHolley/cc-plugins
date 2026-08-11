@@ -1,6 +1,6 @@
 ---
 name: rewrite-gh-issue
-description: Rewrite an existing GitHub issue for the current repository using the GitHub CLI, codebase context, and any matching issue template. Use when the user wants to improve, clarify, normalize, or fully rewrite a GitHub issue by issue number.
+description: Rewrite a GitHub issue against the repo's template and codebase context. Use when the user wants an existing issue improved, clarified, tightened, normalized, or fully rewritten.
 argument-hint: <issue-number>
 ---
 
@@ -32,7 +32,7 @@ Follow this approach:
 3. Inspect the current issue title, body, labels, and metadata.
 4. Explore the codebase, docs, tests, and configuration related to the issue.
 5. Try to answer unresolved questions from the repository before asking more.
-6. Ask the user targeted clarifying questions in a “grill-me” style.
+6. Ask the user targeted clarifying questions in a “grilling” interview style.
 7. Find a matching issue template if one exists.
 8. Rewrite the title and body in a cleaner, more complete form.
 9. Present the proposed rewritten issue to the user.

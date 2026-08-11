@@ -1,6 +1,6 @@
 ---
 name: ship-pr
-description: "Ship a change end-to-end on its own branch and open a PR: capture intent, branch, plan via subagent, implement, validate, push, then review-fix in a loop until clean. Use when the user wants a full PR delivered, not just a local commit, or asks to open a PR for a feature, fix, or issue."
+description: The full implementation cycle of a new feature, bugfix or change-request. Use when the user wants a change delivered as a new branch including a Pull-Request and Review.
 ---
 
 # Ship PR
