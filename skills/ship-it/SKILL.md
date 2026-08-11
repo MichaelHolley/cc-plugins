@@ -1,6 +1,6 @@
 ---
 name: ship-it
-description: "Execute a unit of work end-to-end: plan, implement with tests, validate, then commit. Use when user wants to ship work, build a feature, fix a bug, or implement a phase from a plan."
+description: Use when the user wants a unit of work delivered and committed locally — shipping work, building a feature, fixing a bug, or implementing a phase from an existing plan. Not for opening a PR; use ship-pr for that.
 ---
 
 # Ship It

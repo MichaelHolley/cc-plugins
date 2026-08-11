@@ -21,6 +21,12 @@ Each skill is `skills/<name>/SKILL.md` with YAML frontmatter:
 - `description` — one sentence on what it does, then the trigger phrasing (`Use when…`). This is the only thing the model sees when deciding to invoke, so it carries the full trigger surface.
 - `argument-hint` — only when the skill takes positional args (`<pr-number> [short|full]`).
 
+### Frontmatter Descriptions
+
+- keep it below 300 characters
+- a description should state when it should be used and pulled into a session
+- it should not explain how it works and what it does in detail
+
 ## Versioning
 
 Bump `version` in `.claude-plugin/plugin.json` when `skills/` changes materially. Marketplace-only changes (adding or re-pinning a third-party entry) do not require a plugin bump.

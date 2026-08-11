@@ -1,6 +1,6 @@
 ---
 name: triage-pr-feedback
-description: Read all reviews, review comments, and conversation comments on a GitHub PR by number via the gh CLI, then group the feedback into categories and prioritize it into an action list. Triage report only — do not post replies or change code. Use when the user wants to triage, summarize, or get an action plan for PR feedback.
+description: Use when the user wants to triage, summarize, or get a prioritized action plan for the review feedback on a GitHub PR, referenced by number. Report only — not for replying to reviewers or applying the fixes.
 argument-hint: <pr-number> [short|full]
 ---
 

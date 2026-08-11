@@ -1,6 +1,6 @@
 ---
 name: ui-variants
-description: "Diverge a UI component, form, or layout into several genuinely different variants shown side by side, then converge on one and wire it in. Use when the user is creating or reworking a component/form/layout, asks for variants, options, or alternatives to compare, or wants to see designs next to each other before choosing."
+description: Use when the user is creating or reworking a UI component, form, or layout and wants to compare options before committing — asking for variants, alternatives, or designs side by side to pick from.
 ---
 
 # UI Variants
