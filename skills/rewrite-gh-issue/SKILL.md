@@ -1,6 +1,6 @@
 ---
 name: rewrite-gh-issue
-description: Use when the user wants an existing GitHub issue improved, clarified, tightened, normalized to the repo's template, or fully rewritten.
+description: Rewrite a GitHub issue against the repo's template and codebase context. Use when the user wants an existing issue improved, clarified, tightened, normalized, or fully rewritten.
 argument-hint: <issue-number>
 ---
 

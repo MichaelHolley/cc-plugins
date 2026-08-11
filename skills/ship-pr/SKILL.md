@@ -1,6 +1,6 @@
 ---
 name: ship-pr
-description: Use when the user wants a change delivered as a pull request rather than just a local commit — asking to open a PR for a feature, fix, or issue, or to ship something on its own branch.
+description: The full implementation cycle of a new feature, bugfix or change-request. Use when the user wants a change delivered as a new branch including a Pull-Request and Review.
 ---
 
 # Ship PR

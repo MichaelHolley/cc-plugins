@@ -1,6 +1,6 @@
 ---
 name: triage-pr-feedback
-description: Use when the user wants to triage, summarize, or get a prioritized action plan for the review feedback on a GitHub PR, referenced by number. Report only — not for replying to reviewers or applying the fixes.
+description: Group and prioritize all review feedback on a GitHub PR into an action list. Use when the user wants PR feedback triaged or summarized — report only, not for replying to reviewers or applying fixes.
 argument-hint: <pr-number> [short|full]
 ---
 

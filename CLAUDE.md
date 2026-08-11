@@ -18,14 +18,8 @@ A Claude Code **marketplace** plus the `dev-workflows` **plugin** it ships.
 Each skill is `skills/<name>/SKILL.md` with YAML frontmatter:
 
 - `name` — must match the directory name.
-- `description` — one sentence on what it does, then the trigger phrasing (`Use when…`). This is the only thing the model sees when deciding to invoke, so it carries the full trigger surface.
+- `description` — one sentence on what it does, then the trigger phrasing (`Use when…`). This is the only thing the model sees when deciding to invoke, so it carries the full trigger surface. The description should not explain how it works and what it does in detail, but explain when the skill should be used and pulled into the session.
 - `argument-hint` — only when the skill takes positional args (`<pr-number> [short|full]`).
-
-### Frontmatter Descriptions
-
-- keep it below 300 characters
-- a description should state when it should be used and pulled into a session
-- it should not explain how it works and what it does in detail
 
 ## Versioning
 

@@ -1,6 +1,6 @@
 ---
 name: ui-variants
-description: Use when the user is creating or reworking a UI component, form, or layout and wants to compare options before committing — asking for variants, alternatives, or designs side by side to pick from.
+description: Compare different component style and layout variants. Use when the user is creating or reworking a UI component, form, or layout and wants to compare options.
 ---
 
 # UI Variants
@@ -23,11 +23,11 @@ Read the request and settle three things before building anything:
 
 ### 2. Diverge
 
-Build the variants. Each must differ from the others on a **real axis**, not by tweaked padding or swapped colors — a stranger should be able to say *why* two variants are different in one sentence. The axis depends on type:
+Build the variants. Each must differ from the others on a **real axis**, not by tweaked padding or swapped colors — a stranger should be able to say _why_ two variants are different in one sentence. The axis depends on type:
 
-**Display-only → maximize visual variety.** Push the widest spread of *form*: layout structure (grid / list / inline / stacked), visual hierarchy, density (airy vs compact), elevation & borders vs flat, with/without imagery or iconography, decorative vs utilitarian. Five display variants should look like they came from five different design systems.
+**Display-only → maximize visual variety.** Push the widest spread of _form_: layout structure (grid / list / inline / stacked), visual hierarchy, density (airy vs compact), elevation & borders vs flat, with/without imagery or iconography, decorative vs utilitarian. Five display variants should look like they came from five different design systems.
 
-**Interactive → maximize UX/control variety.** Push the widest spread of *interaction model*, not paint: the control paradigm (dropdown vs segmented vs radio-cards vs search-as-you-type), single-screen vs stepped/wizard, progressive disclosure vs everything-visible, inline validation vs summary, field grouping and order, keyboard/affordance choices. Vary what changes how it *feels to use*, and let the strongest-UX idea be one of the five.
+**Interactive → maximize UX/control variety.** Push the widest spread of _interaction model_, not paint: the control paradigm (dropdown vs segmented vs radio-cards vs search-as-you-type), single-screen vs stepped/wizard, progressive disclosure vs everything-visible, inline validation vs summary, field grouping and order, keyboard/affordance choices. Vary what changes how it _feels to use_, and let the strongest-UX idea be one of the five.
 
 **Done when** every variant exists, is individually rendered/complete, and differs from each sibling on a nameable axis.
 

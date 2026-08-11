@@ -1,6 +1,6 @@
 ---
 name: ship-it
-description: Use when the user wants a unit of work delivered and committed locally — shipping work, building a feature, fixing a bug, or implementing a phase from an existing plan. Not for opening a PR; use ship-pr for that.
+description: Implement a scoped change and commit it locally. Use when the user wants a feature, fix, or planned phase delivered as a commit — not a PR; use ship-pr for that.
 ---
 
 # Ship It
