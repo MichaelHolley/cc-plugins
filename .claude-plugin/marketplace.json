@@ -21,7 +21,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/grilling",
-        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
+        "sha": "885e2ca4d842d139e9aef4e48d366c63cb1b8013"
       },
       "description": "A relentless interview to sharpen a plan or design.",
       "author": {
@@ -34,7 +34,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/engineering/resolving-merge-conflicts",
-        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
+        "sha": "885e2ca4d842d139e9aef4e48d366c63cb1b8013"
       },
       "description": "Work through an in-progress git merge or rebase conflict hunk by hunk, resolving by intent traced to each side's primary source, then finish the operation — never --abort.",
       "author": {
@@ -55,14 +55,14 @@
       }
     },
     {
-      "name": "writing-great-skills",
+      "name": "writing-for-agents",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/productivity/writing-great-skills",
-        "sha": "ed37663cc5fbef691ddfecd080dff42f7e7e350d"
+        "path": "skills/productivity/writing-for-agents",
+        "sha": "885e2ca4d842d139e9aef4e48d366c63cb1b8013"
       },
-      "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.",
+      "description": "Reference for writing documents an agent consumes — skills, AGENTS.md/CLAUDE.md, and other agent-facing docs — using the same principles that make each one predictable.",
       "author": {
         "name": "Matt Pocock"
       }
@@ -73,7 +73,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/engineering/to-spec",
-        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
+        "sha": "885e2ca4d842d139e9aef4e48d366c63cb1b8013"
       },
       "description": "Turn the current conversation into a spec and publish it to the project issue tracker — synthesis of what you've already discussed, no interview.",
       "author": {
@@ -86,7 +86,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/engineering/to-tickets",
-        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
+        "sha": "885e2ca4d842d139e9aef4e48d366c63cb1b8013"
       },
       "description": "Break a plan, spec, or conversation into tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker.",
       "author": {
@@ -99,7 +99,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/handoff",
-        "sha": "84fdeffd12f2ee307994d1eb6feb48173b6e0502"
+        "sha": "885e2ca4d842d139e9aef4e48d366c63cb1b8013"
       },
       "description": "Compact the current conversation into a handoff document for another agent to pick up.",
       "author": {
