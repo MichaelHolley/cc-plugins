@@ -23,4 +23,5 @@ Each skill is `skills/<name>/SKILL.md` with YAML frontmatter:
 
 ## Versioning
 
-Bump `version` in `.claude-plugin/plugin.json` when `skills/` changes materially. Marketplace-only changes (adding or re-pinning a third-party entry) do not require a plugin bump.
+Bump `version` in `.claude-plugin/plugin.json` when `skills/` changes materially.
+Marketplace-only changes (adding or re-pinning a third-party entry) require a patch level bump.
