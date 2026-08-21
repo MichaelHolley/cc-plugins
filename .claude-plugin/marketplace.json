@@ -16,19 +16,6 @@
       "description": "My collection of Claude Code skills, mcps and agents for rapid development workflows."
     },
     {
-      "name": "caveman",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/productivity/caveman",
-        "sha": "0a4b76776dfd9979bfe013d99b5562a03b743839"
-      },
-      "description": "Ultra-compressed communication mode that cuts token usage ~75% while keeping full technical accuracy.",
-      "author": {
-        "name": "Matt Pocock"
-      }
-    },
-    {
       "name": "writing-for-agents",
       "source": {
         "source": "git-subdir",
