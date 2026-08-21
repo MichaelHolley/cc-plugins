@@ -16,19 +16,6 @@
       "description": "My collection of Claude Code skills, mcps and agents for rapid development workflows."
     },
     {
-      "name": "grilling",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills.git",
-        "path": "skills/productivity/grilling",
-        "sha": "885e2ca4d842d139e9aef4e48d366c63cb1b8013"
-      },
-      "description": "A relentless interview to sharpen a plan or design.",
-      "author": {
-        "name": "Matt Pocock"
-      }
-    },
-    {
       "name": "resolving-merge-conflict",
       "source": {
         "source": "git-subdir",
