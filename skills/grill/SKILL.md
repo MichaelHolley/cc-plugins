@@ -1,6 +1,6 @@
 ---
 name: grill
-description: Stress-test a plan, design, or decision by interviewing the user one round of pickable questions at a time. Use when the user wants their thinking challenged, gaps found, or assumptions surfaced before work starts, or says "grill me" or "grilling".
+description: Stress-test a plan, design, or decision by interviewing the user one round of pickable questions at a time. Use when the user wants their thinking challenged, gaps found, or assumptions surfaced before work starts, or says "grill me", "interview me" or "grilling".
 ---
 
 # Grill
