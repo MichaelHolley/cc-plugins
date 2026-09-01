@@ -6,10 +6,16 @@ Supported in any harness with marketplace like Claude-Code, oh-my-pi, ...
 
 ## Skills
 
-Install skills via
+Install selected skills with:
 
 ```sh
 npx skills add michaelholley/cc-plugins --skill='the-skill-name'
+```
+
+or all:
+
+```sh
+npx skills add michaelholley/cc-plugins'
 ```
 
 ## CC Marketplace
