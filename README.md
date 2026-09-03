@@ -15,7 +15,7 @@ npx skills add michaelholley/cc-plugins --skill='the-skill-name'
 or all:
 
 ```sh
-npx skills add michaelholley/cc-plugins'
+npx skills add michaelholley/cc-plugins
 ```
 
 ## CC Marketplace
