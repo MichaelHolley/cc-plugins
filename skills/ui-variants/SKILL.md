@@ -7,27 +7,28 @@ description: Compare different component style and layout variants. Use when the
 
 Turn one component request into several genuinely different variants, laid out side by side for the user to pick from, then wire the winner in. **Diverge** wide, then **converge** on one.
 
-Default to **5 variants**. Honor any other count the user gives.
+Default to **3 variants**, never more than **5**. Honor any lower count the user gives.
 
 ## Workflow
 
 ### 1. Classify & scope
 
-Read the request and settle three things before building anything:
+Read the request and settle four things before building anything:
 
+- **Scope** — one component per run. If the request spans several ("the dashboard"), pick the single highest-leverage piece, say which and why, and offer the rest as follow-up runs.
 - **Type** — is this **display-only** (renders data: cards, tables, badges, stats, empty states, nav) or **interactive** (takes input: inputs, forms, filters, pickers, wizards)? This decides the axis of variety in step 2.
-- **Count** — 5 unless the user said otherwise.
+- **Count** — 3 unless the user said otherwise, capped at 5.
 - **Stack** — find how components are built in this codebase (framework, styling system, existing primitives) so variants match it and can drop in. Reuse existing tokens/components; don't invent a parallel design system.
 
-**Done when** you can name the type, the count, and the file(s) you'll add variants to.
+**Done when** you can restate the brief in one sentence and name the type, the count, and the file(s) you'll add variants to.
 
 ### 2. Diverge
 
 Build the variants. Each must differ from the others on a **real axis**, not by tweaked padding or swapped colors — a stranger should be able to say _why_ two variants are different in one sentence. The axis depends on type:
 
-**Display-only → maximize visual variety.** Push the widest spread of _form_: layout structure (grid / list / inline / stacked), visual hierarchy, density (airy vs compact), elevation & borders vs flat, with/without imagery or iconography, decorative vs utilitarian. Five display variants should look like they came from five different design systems.
+**Display-only → maximize visual variety.** Push the widest spread of _form_: layout structure (grid / list / inline / stacked), visual hierarchy, density (airy vs compact), elevation & borders vs flat, with/without imagery or iconography, decorative vs utilitarian. Variants should look like they came from different design systems.
 
-**Interactive → maximize UX/control variety.** Push the widest spread of _interaction model_, not paint: the control paradigm (dropdown vs segmented vs radio-cards vs search-as-you-type), single-screen vs stepped/wizard, progressive disclosure vs everything-visible, inline validation vs summary, field grouping and order, keyboard/affordance choices. Vary what changes how it _feels to use_, and let the strongest-UX idea be one of the five.
+**Interactive → maximize UX/control variety.** Push the widest spread of _interaction model_, not paint: the control paradigm (dropdown vs segmented vs radio-cards vs search-as-you-type), single-screen vs stepped/wizard, progressive disclosure vs everything-visible, inline validation vs summary, field grouping and order, keyboard/affordance choices. Vary what changes how it _feels to use_, and let the strongest-UX idea be one of the set.
 
 **Done when** every variant exists, is individually rendered/complete, and differs from each sibling on a nameable axis.
 
@@ -42,4 +43,6 @@ Label each variant and note its distinguishing axis in a line. Prefer a live vie
 
 ### 4. Converge
 
-Give a short recommendation with a reason, then let the user choose. On their pick: wire the chosen variant into the codebase properly and remove the comparison scaffolding and the discarded variants. **Done when** the winner is integrated and the scratch/comparison artifacts are gone.
+Sell each variant honestly in a table — variant, axis, when it's the right choice, its cost — then give your pick, with a reason rooted in the product's personality and how often the thing gets used, not aesthetics alone.
+
+On the user's pick: wire the chosen variant into the codebase properly and remove the comparison scaffolding and the discarded variants. **Done when** the winner is integrated and the scratch/comparison artifacts are gone.
