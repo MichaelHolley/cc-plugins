@@ -18,7 +18,7 @@ or all:
 npx skills add michaelholley/cc-plugins/skills
 ```
 
-## CC Marketplace
+## Claude Marketplace
 
 Use the claude code marketplace and install the plugins
 
