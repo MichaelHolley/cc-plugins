@@ -9,13 +9,13 @@ Supported in any harness with marketplace like Claude-Code, oh-my-pi, ...
 Install selected skills with:
 
 ```sh
-npx skills add michaelholley/cc-plugins --skill='the-skill-name'
+npx skills add michaelholley/cc-plugins/skills --skill='the-skill-name'
 ```
 
 or all:
 
 ```sh
-npx skills add michaelholley/cc-plugins
+npx skills add michaelholley/cc-plugins/skills
 ```
 
 ## CC Marketplace
