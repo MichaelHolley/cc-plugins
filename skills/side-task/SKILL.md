@@ -9,7 +9,7 @@ The whole output of this skill is one parked issue: an agent picks it up later, 
 
 ## One-PR sized
 
-A task is **one-PR sized** when it is one branch, one PR, and no open design questions. Larger — it needs a decision from the user, spans unrelated areas, or has no clear finish line — and it belongs in a plain issue instead.
+A task is **one-PR sized** when it is one branch, one PR, and no open design questions. Larger - it needs a decision from the user, spans unrelated areas, or has no clear finish line - and it belongs in a plain issue instead.
 
 ## Workflow
 
@@ -27,10 +27,10 @@ Title: one short line naming the outcome.
 
 Body, in this order:
 
-- **Goal** — one or two sentences on what is true once the PR lands.
-- **Where** — the repo-relative paths involved.
-- **Acceptance criteria** — a checklist the picking-up agent can verify itself.
-- **Non-goals** — what to leave alone, so the PR stays small.
+- **Goal** - one or two sentences on what is true once the PR lands.
+- **Where** - the repo-relative paths involved.
+- **Acceptance criteria** - a checklist the picking-up agent can verify itself.
+- **Non-goals** - what to leave alone, so the PR stays small.
 
 Every line traces to something the user said or something you read in the repo. Use the repo's own terminology. When the repo has an issue template, follow it and place these four parts inside its sections. **Done when** all four parts are written and every line traces to the user or the repo.
 

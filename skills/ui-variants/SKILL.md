@@ -15,16 +15,16 @@ Default to **3 variants**, never more than **5**. Honor any lower count the user
 
 Read the request and settle four things before building anything:
 
-- **Scope** — one component per run. If the request spans several ("the dashboard"), pick the single highest-leverage piece, say which and why, and offer the rest as follow-up runs.
-- **Type** — is this **display-only** (renders data: cards, tables, badges, stats, empty states, nav) or **interactive** (takes input: inputs, forms, filters, pickers, wizards)? This decides the axis of variety in step 2.
-- **Count** — 3 unless the user said otherwise, capped at 5.
-- **Stack** — find how components are built in this codebase (framework, styling system, existing primitives) so variants match it and can drop in. Reuse existing tokens/components; don't invent a parallel design system.
+- **Scope** - one component per run. If the request spans several ("the dashboard"), pick the single highest-leverage piece, say which and why, and offer the rest as follow-up runs.
+- **Type** - is this **display-only** (renders data: cards, tables, badges, stats, empty states, nav) or **interactive** (takes input: inputs, forms, filters, pickers, wizards)? This decides the axis of variety in step 2.
+- **Count** - 3 unless the user said otherwise, capped at 5.
+- **Stack** - find how components are built in this codebase (framework, styling system, existing primitives) so variants match it and can drop in. Reuse existing tokens/components; don't invent a parallel design system.
 
 **Done when** you can restate the brief in one sentence and name the type, the count, and the file(s) you'll add variants to.
 
 ### 2. Diverge
 
-Build the variants. Each must differ from the others on a **real axis**, not by tweaked padding or swapped colors — a stranger should be able to say _why_ two variants are different in one sentence. The axis depends on type:
+Build the variants. Each must differ from the others on a **real axis**, not by tweaked padding or swapped colors - a stranger should be able to say _why_ two variants are different in one sentence. The axis depends on type:
 
 **Display-only → maximize visual variety.** Push the widest spread of _form_: layout structure (grid / list / inline / stacked), visual hierarchy, density (airy vs compact), elevation & borders vs flat, with/without imagery or iconography, decorative vs utilitarian. Variants should look like they came from different design systems.
 
@@ -43,6 +43,6 @@ Label each variant and note its distinguishing axis in a line. Prefer a live vie
 
 ### 4. Converge
 
-Sell each variant honestly in a table — variant, axis, when it's the right choice, its cost — then give your pick, with a reason rooted in the product's personality and how often the thing gets used, not aesthetics alone.
+Sell each variant honestly in a table - variant, axis, when it's the right choice, its cost - then give your pick, with a reason rooted in the product's personality and how often the thing gets used, not aesthetics alone.
 
 On the user's pick: wire the chosen variant into the codebase properly and remove the comparison scaffolding and the discarded variants. **Done when** the winner is integrated and the scratch/comparison artifacts are gone.

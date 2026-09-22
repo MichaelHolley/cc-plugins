@@ -1,6 +1,6 @@
 ---
 name: ship-it
-description: Implement a scoped change and commit it locally. Use when the user wants a feature, fix, or planned phase delivered as a commit — not a PR; use ship-pr for that.
+description: Implement a scoped change and commit it locally. Use when the user wants a feature, fix, or planned phase delivered as a commit - not a PR; use ship-pr for that.
 ---
 
 # Ship It
@@ -9,7 +9,7 @@ description: Implement a scoped change and commit it locally. Use when the user 
 
 ### 1. Understand
 
-Read the referenced plan, issue, or PRD and explore the codebase for the files, patterns, and conventions in play. Draft a **spec** — definition of done, files to change, approach — then **grill** the user on every open decision, one question at a time with a recommended answer for each (invoke the `grilling` skill if available). Look facts up rather than asking. Done when the spec is confirmed with no user-owned decision left open.
+Read the referenced plan, issue, or PRD and explore the codebase for the files, patterns, and conventions in play. Draft a **spec** - definition of done, files to change, approach - then **grill** the user on every open decision, one question at a time with a recommended answer for each (invoke the `grilling` skill if available). Look facts up rather than asking. Done when the spec is confirmed with no user-owned decision left open.
 
 ### 2. Plan
 
@@ -29,4 +29,4 @@ Show the diff summary and proposed message, and **confirm before committing**. B
 
 ### 6. Hand Off
 
-Close with a short summary of what changed and how the user can verify it themselves — the concrete command to run, the URL or screen to open, and what they should see.
+Close with a short summary of what changed and how the user can verify it themselves - the concrete command to run, the URL or screen to open, and what they should see.

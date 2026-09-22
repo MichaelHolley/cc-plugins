@@ -11,7 +11,7 @@ Ask through the AskUserQuestion tool, never as prose questions in your reply.
 
 ## Rounds
 
-The **frontier** is every decision whose prerequisites are already settled — what you can ask now without guessing at answers you haven't heard. Work the frontier in rounds:
+The **frontier** is every decision whose prerequisites are already settled - what you can ask now without guessing at answers you haven't heard. Work the frontier in rounds:
 
 1. Compute the frontier.
 2. Ask up to 4 of its questions in one AskUserQuestion call. If the frontier is wider than 4, ask the ones that branch the most first.
@@ -23,11 +23,11 @@ A question whose answer depends on another question still open in this round bel
 
 Each AskUserQuestion question:
 
-- `header` — 1-2 words naming the decision.
-- `question` — the decision, plus whatever context the user needs to pick fast. Name the tradeoff.
-- `options` — 2-4 real, mutually exclusive answers. Put your recommendation first and append " (Recommended)" to its label. Every option's `description` says what happens if it's picked.
+- `header` - 1-2 words naming the decision.
+- `question` - the decision, plus whatever context the user needs to pick fast. Name the tradeoff.
+- `options` - 2-4 real, mutually exclusive answers. Put your recommendation first and append " (Recommended)" to its label. Every option's `description` says what happens if it's picked.
 - `multiSelect: true` only when the answers genuinely stack.
-- `preview` when the choice is about concrete shape — layout, API signature, config, diagram. Single-select only.
+- `preview` when the choice is about concrete shape - layout, API signature, config, diagram. Single-select only.
 
 Never offer an "Other" option; the tool adds one.
 

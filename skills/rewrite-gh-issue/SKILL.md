@@ -42,7 +42,7 @@ Follow this approach:
 # Gotchas
 
 - **Closed issue:** Warn the user before doing any work. Ask whether to proceed.
-- **Empty body:** Skip "preserve existing details" — treat it as a fresh write.
+- **Empty body:** Skip "preserve existing details" - treat it as a fresh write.
 - **No template found:** Fall back to the rewrite requirements. Don't invent structure.
 - **Fork:** Detect if the repo is a fork and ask which repo to target before editing.
 - **Metadata:** `gh issue edit` only updates title and body. Note label/assignee suggestions but don't apply them.

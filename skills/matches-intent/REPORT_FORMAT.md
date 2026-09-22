@@ -3,7 +3,7 @@
 <one-sentence goal from Step 1>
 
 ## Acceptance criteria
-- [ ] <criterion> — <MET / PARTIALLY MET / NOT MET>
+- [ ] <criterion> - <MET / PARTIALLY MET / NOT MET>
 - [ ] ...
 
 ## Matches
@@ -19,7 +19,7 @@
 - <changes outside the stated scope, if any>
 
 ## Implementation quality
-- <notable quality observations — positive or negative>
+- <notable quality observations - positive or negative>
 
 ## Verdict
 <one or two sentences: does this implementation fulfill the intent? What is the most important thing to address?>

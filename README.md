@@ -1,6 +1,6 @@
 # Claude Code Plugins
 
-Personal Claude Code marketplace — skills, MCPs, and agents for shipping code faster.
+Personal Claude Code marketplace - skills, MCPs, and agents for shipping code faster.
 
 Supported in any harness with marketplace like Claude-Code, oh-my-pi, ...
 

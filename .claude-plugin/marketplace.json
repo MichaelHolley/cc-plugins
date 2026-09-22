@@ -23,7 +23,7 @@
         "path": "skills/productivity/writing-for-agents",
         "sha": "885e2ca4d842d139e9aef4e48d366c63cb1b8013"
       },
-      "description": "Reference for writing documents an agent consumes — skills, AGENTS.md/CLAUDE.md, and other agent-facing docs — using the same principles that make each one predictable.",
+      "description": "Reference for writing documents an agent consumes - skills, AGENTS.md/CLAUDE.md, and other agent-facing docs - using the same principles that make each one predictable.",
       "author": {
         "name": "Matt Pocock"
       }
@@ -36,7 +36,7 @@
         "path": "skills/engineering/to-spec",
         "sha": "885e2ca4d842d139e9aef4e48d366c63cb1b8013"
       },
-      "description": "Turn the current conversation into a spec and publish it to the project issue tracker — synthesis of what you've already discussed, no interview.",
+      "description": "Turn the current conversation into a spec and publish it to the project issue tracker - synthesis of what you've already discussed, no interview.",
       "author": {
         "name": "Matt Pocock"
       }
@@ -88,7 +88,7 @@
         "path": "skills/ponytail",
         "sha": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
       },
-      "description": "Forces the laziest solution that actually works — YAGNI, stdlib before custom code, native features before dependencies, one line before fifty.",
+      "description": "Forces the laziest solution that actually works - YAGNI, stdlib before custom code, native features before dependencies, one line before fifty.",
       "author": {
         "name": "Dietrich Gebert"
       }
@@ -101,7 +101,7 @@
         "path": "skills/ponytail-review",
         "sha": "2ed6c52c9d7e5e56942508591085fd45dea277d3"
       },
-      "description": "Code review focused exclusively on over-engineering — finds reinvented stdlib, unneeded deps, speculative abstractions, dead flexibility.",
+      "description": "Code review focused exclusively on over-engineering - finds reinvented stdlib, unneeded deps, speculative abstractions, dead flexibility.",
       "author": {
         "name": "Dietrich Gebert"
       }

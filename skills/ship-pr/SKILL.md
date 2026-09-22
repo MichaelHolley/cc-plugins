@@ -15,7 +15,7 @@ Get what the user wants changed: a pasted description, a linked issue, or a PRD.
 
 ### 2. Branch
 
-A new branch is required — never work on the current one. Ask the user which branch to base it on (offer the current branch and `main` as defaults), then create the branch from it. **Done when** you are on a fresh branch off the confirmed base.
+A new branch is required - never work on the current one. Ask the user which branch to base it on (offer the current branch and `main` as defaults), then create the branch from it. **Done when** you are on a fresh branch off the confirmed base.
 
 ### 3. Plan
 
@@ -29,7 +29,7 @@ Build the plan, matching the surrounding code's style. Add or update tests cover
 
 Detect and run the project's validation scripts; fix failures and re-run until green. Never claim green without running them.
 
-- **package.json first**: run the relevant `scripts` when present — `typecheck`, `lint`, `test`, `build`.
+- **package.json first**: run the relevant `scripts` when present - `typecheck`, `lint`, `test`, `build`.
 - **Fallback**: if no package.json, use the ecosystem's equivalents.
 
 **Done when** every validation script passes.
@@ -40,7 +40,7 @@ Show the diff summary and proposed message, confirm, then commit, push the branc
 
 ### 7. Review loop
 
-Spawn a subagent to review the pushed changes and return actionable findings. The loop is **green** only when a review pass returns zero actionable findings — one clean pass, not an assumption.
+Spawn a subagent to review the pushed changes and return actionable findings. The loop is **green** only when a review pass returns zero actionable findings - one clean pass, not an assumption.
 
 Each round:
 

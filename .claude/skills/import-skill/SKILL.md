@@ -10,7 +10,7 @@ Expected from the user:
 
 - **repo owner** (required), e.g. `mattpocock`
 - **repo name** (required), e.g. `skills`
-- **skill name** (optional) — the skill's directory name, e.g. `grilling`. Without it, list the repo's skills and ask which to import.
+- **skill name** (optional) - the skill's directory name, e.g. `grilling`. Without it, list the repo's skills and ask which to import.
 
 Intent is either **link** (add a new entry) or **update** (re-pin an existing entry to a newer sha). Infer it from whether the skill already appears in `.claude-plugin/marketplace.json`; ask only if the user's words contradict what you find.
 
@@ -18,17 +18,17 @@ Intent is either **link** (add a new entry) or **update** (re-pin an existing en
 
 1. Read `.claude-plugin/marketplace.json` and check whether the skill already has an entry. This decides link vs update.
 2. Resolve the repo's default branch and its HEAD sha (see [Discovery](#discovery)).
-3. Locate the skill's `SKILL.md` at that sha. Every candidate path must be confirmed to exist at the resolved sha — never a path from memory or from an existing entry.
+3. Locate the skill's `SKILL.md` at that sha. Every candidate path must be confirmed to exist at the resolved sha - never a path from memory or from an existing entry.
 4. Read the skill's frontmatter `name` and `description` at that sha.
 5. Resolve the author's display name.
 6. Write the entry (see [Entry shape](#entry-shape)) into the `plugins` array, then verify the file still parses as JSON.
-7. Report: name, path, sha (short), and — on update — the old sha it moved from.
+7. Report: name, path, sha (short), and - on update - the old sha it moved from.
 
 Done when the entry exists with a full 40-character sha, its `path` is confirmed present at that sha, and the JSON parses.
 
 # Discovery
 
-`?` needs quoting in zsh — quote every URL that carries a query string.
+`?` needs quoting in zsh - quote every URL that carries a query string.
 
 ```sh
 # Default branch + HEAD sha (the pin)
@@ -73,13 +73,13 @@ Append to `plugins`, matching the surrounding entries:
 - **`description`** is human-facing: take the skill's frontmatter description and strip the trigger phrasing ("Use when…", "invokes /…"), keeping one sentence on what it does.
 - **`name`** may differ from the directory name if the user asks; otherwise use the directory name.
 
-On update, change only `sha` — and `path`, if the skill moved. Leave a hand-edited `name` or `description` alone unless the user asks or the upstream description materially changed.
+On update, change only `sha` - and `path`, if the skill moved. Leave a hand-edited `name` or `description` alone unless the user asks or the upstream description materially changed.
 
 # Gotchas
 
-- **Skill deleted or moved upstream:** the pinned path may not exist at HEAD (this is why `caveman` sits on an older sha). Do not bump a pin to a sha where the path is gone — report it and ask whether to re-point at the new path or hold the old pin.
+- **Skill deleted or moved upstream:** the pinned path may not exist at HEAD (this is why `caveman` sits on an older sha). Do not bump a pin to a sha where the path is gone - report it and ask whether to re-point at the new path or hold the old pin.
 - **Already at HEAD:** say so and change nothing rather than rewriting an identical entry.
-- **Truncated tree:** if the tree response has `"truncated": true`, the listing is incomplete — fall back to `gh api "repos/<owner>/<repo>/contents/<dir>?ref=<sha>"` to walk directories.
+- **Truncated tree:** if the tree response has `"truncated": true`, the listing is incomplete - fall back to `gh api "repos/<owner>/<repo>/contents/<dir>?ref=<sha>"` to walk directories.
 - **Name collision:** a marketplace `name` must be unique across `plugins`. On collision, ask for a distinguishing name instead of overwriting.
 - **Multi-skill repos:** one entry per skill directory. A repo exposing four skills gets four entries (see the `ponytail` entries), not one pointing at the repo root.
 - **`source: github` entries:** the shorthand form (like `humanizer`) carries no sha. Converting one to a pinned `git-subdir` entry needs the user's go-ahead.
