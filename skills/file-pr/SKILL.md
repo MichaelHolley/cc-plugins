@@ -1,11 +1,14 @@
 ---
 name: file-pr
 description: File a concise pull request. Use when the user asks to file, open, or create a PR.
+argument-hint: <auto>
 ---
 
 # File PR
 
 Turn already-committed work into a pull request. For taking a change from intent through implementation to a merged PR, that is `ship-pr`.
+
+When invoked with `auto`, never stop for confirmation: update an existing PR instead of asking, take the base you determined without confirming, and open the PR without showing it first.
 
 ## Workflow
 
