@@ -107,6 +107,19 @@
       }
     },
     {
+      "name": "taste-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Leonxlnx/taste-skill.git",
+        "path": "skills/taste-skill",
+        "sha": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b"
+      },
+      "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns - infers the design direction from the brief and ships interfaces that do not look templated.",
+      "author": {
+        "name": "Leon Lin"
+      }
+    },
+    {
       "name": "humanizer",
       "source": {
         "source": "github",
