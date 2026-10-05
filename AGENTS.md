@@ -21,6 +21,10 @@ Each skill is `skills/<name>/SKILL.md` with YAML frontmatter:
 - `description` - one sentence on what it does, then the trigger phrasing (`Use when…`). This is the only thing the model sees when deciding to invoke, so it carries the full trigger surface. The description should not explain how it works and what it does in detail, but explain when the skill should be used and pulled into the session.
 - `argument-hint` - only when the skill takes positional args (`<pr-number> [short|full]`).
 
+## README
+
+Do not name third-party skills in `README.md`. The list changes with every import, so the README only says that they exist.
+
 ## Writing style
 
 Never use em dashes (—). Use normal dashes (-) instead.

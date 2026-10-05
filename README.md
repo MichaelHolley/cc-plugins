@@ -4,23 +4,29 @@ Personal Claude Code marketplace - skills, MCPs, and agents for shipping code fa
 
 Supported in any harness with marketplace like Claude-Code, oh-my-pi, ...
 
-## Skills
+## Install options
 
-Install selected skills with:
+The skills install gets only my own skills from [skills/](skills/). The marketplace install gets the same skills as the `dev-workflows` plugin, plus a set of third-party skills that you can install one by one.
 
-```sh
-npx skills add michaelholley/cc-plugins/skills --skill='the-skill-name'
-```
+### Skills install
 
-or all:
+Install all my skills in [skills/](skills/):
 
 ```sh
 npx skills add michaelholley/cc-plugins/skills
 ```
 
-## Claude Marketplace
+or selected skills with:
 
-Use the claude code marketplace and install the plugins
+```sh
+npx skills add michaelholley/cc-plugins/skills --skill='the-skill-name'
+```
+
+### Claude Marketplace install
+
+Gets the same skills as the `dev-workflows` plugin. It also lists a set of third-party skills that point to their original repos. Browse them with `/plugin` after adding the marketplace.
+
+Add the marketplace, then install the plugins you want:
 
 ```sh
 /plugin marketplace add MichaelHolley/cc-plugins
