@@ -1,10 +1,10 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to coding agents when working with code in this repository.
 
 ## What this repo is
 
-A Claude Code **marketplace** plus the `dev-workflows` **plugin** it ships.
+A plugin **marketplace** plus the `dev-workflows` **plugin** it ships.
 
 ## Two layers, don't confuse them
 
