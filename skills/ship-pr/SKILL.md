@@ -15,7 +15,7 @@ Get what the user wants changed: a pasted description, a linked issue, or a PRD.
 
 ### 2. Branch
 
-A new branch is required - never work on the current one. Ask the user which branch to base it on (offer the current branch and `main` as defaults), then create the branch from it. **Done when** you are on a fresh branch off the confirmed base.
+The change lands on its own feature branch. Check where you are first: a named branch other than the default one (e.g. a worktree prepared) is already that branch - use it. Otherwise create a new branch, confirming the base with the user. **Done when** you are on a named feature branch dedicated to this change.
 
 ### 3. Plan
 
