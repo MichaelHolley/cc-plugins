@@ -1,9 +1,9 @@
 ---
-name: side-task
+name: park-task
 description: Park an out-of-scope task as a one-PR GitHub issue labelled for an agent to pick up. Use when something surfaces mid-work that should be captured now and done later.
 ---
 
-# Side Task
+# Park Task
 
 The whole output of this skill is one parked issue: an agent picks it up later, on its own branch, and closes it with a single PR. The work in progress stays exactly as it is.
 
