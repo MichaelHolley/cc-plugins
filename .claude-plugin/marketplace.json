@@ -21,7 +21,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/writing-for-agents",
-        "sha": "4588b32ecab9ecc9fc8cc6b6c5e7d675b6004b0d"
+        "sha": "49dd158d1076134a641b33efb035946536778336"
       },
       "description": "Reference for writing documents an agent consumes - skills, AGENTS.md/CLAUDE.md, and other agent-facing docs - using the same principles that make each one predictable.",
       "author": {
@@ -34,7 +34,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/engineering/to-spec",
-        "sha": "4588b32ecab9ecc9fc8cc6b6c5e7d675b6004b0d"
+        "sha": "49dd158d1076134a641b33efb035946536778336"
       },
       "description": "Turn the current conversation into a spec and publish it to the project issue tracker - synthesis of what you've already discussed, no interview.",
       "author": {
@@ -47,7 +47,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/engineering/to-tickets",
-        "sha": "4588b32ecab9ecc9fc8cc6b6c5e7d675b6004b0d"
+        "sha": "49dd158d1076134a641b33efb035946536778336"
       },
       "description": "Break a plan, spec, or conversation into tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker.",
       "author": {
@@ -60,24 +60,11 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills.git",
         "path": "skills/productivity/handoff",
-        "sha": "4588b32ecab9ecc9fc8cc6b6c5e7d675b6004b0d"
+        "sha": "49dd158d1076134a641b33efb035946536778336"
       },
       "description": "Compact the current conversation into a handoff document for another agent to pick up.",
       "author": {
         "name": "Matt Pocock"
-      }
-    },
-    {
-      "name": "btca-local",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/davis7dotsh/better-context.git",
-        "path": "skills/btca-local",
-        "sha": "864e5ba452566c318d60f75229882233b2a5c120"
-      },
-      "description": "A better way to get up to date context on libraries/technologies in your projects. Call with \"use btca\".",
-      "author": {
-        "name": "Ben Davis"
       }
     },
     {
@@ -86,7 +73,7 @@
         "source": "git-subdir",
         "url": "https://github.com/DietrichGebert/ponytail.git",
         "path": "skills/ponytail",
-        "sha": "b2235006bc0cc4828798eaec57c6bdb190ebbff0"
+        "sha": "2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
       },
       "description": "Forces the laziest solution that actually works - YAGNI, stdlib before custom code, native features before dependencies, one line before fifty.",
       "author": {
@@ -99,7 +86,7 @@
         "source": "git-subdir",
         "url": "https://github.com/DietrichGebert/ponytail.git",
         "path": "skills/ponytail-review",
-        "sha": "b2235006bc0cc4828798eaec57c6bdb190ebbff0"
+        "sha": "2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
       },
       "description": "Code review focused exclusively on over-engineering - finds reinvented stdlib, unneeded deps, speculative abstractions, dead flexibility.",
       "author": {
@@ -112,20 +99,12 @@
         "source": "git-subdir",
         "url": "https://github.com/Leonxlnx/taste-skill.git",
         "path": "skills/taste-skill",
-        "sha": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b"
+        "sha": "a60a36dc2bb3bb77ccf17f2f62041f5ca8a458b9"
       },
       "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns - infers the design direction from the brief and ships interfaces that do not look templated.",
       "author": {
         "name": "Leon Lin"
       }
-    },
-    {
-      "name": "humanizer",
-      "source": {
-        "source": "github",
-        "repo": "blader/humanizer"
-      },
-      "description": "Remove signs of AI-generated writing from text, making it sound more natural and human."
     }
   ]
 }
