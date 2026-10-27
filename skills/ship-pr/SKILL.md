@@ -36,7 +36,7 @@ Detect and run the project's validation scripts; fix failures and re-run until g
 
 ### 6. Ship
 
-Show the diff summary and proposed message, confirm, then commit, push the branch, and open the PR (`gh pr create`). If the repo has a PR template fill it out and use it as the PR body. **Done when** the PR exists and its URL is reported.
+Commit, push the branch, and open the PR (`gh pr create`). If the repo has a PR template fill it out and use it as the PR body. **Done when** the PR exists and its URL is reported.
 
 ### 7. Review loop
 
