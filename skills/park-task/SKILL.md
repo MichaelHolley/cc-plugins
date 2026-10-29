@@ -1,6 +1,6 @@
 ---
 name: park-task
-description: Park an out-of-scope task as a one-PR GitHub issue labelled for an agent to pick up. Use when something surfaces mid-work that should be captured now and done later.
+description: Park an out-of-scope task as a one-PR GitHub issue labelled for an agent to pick up. Use when something surfaces mid-work that should be captured now and done later, or says "park this", "park task", or "side task".
 ---
 
 # Park Task

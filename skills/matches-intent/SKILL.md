@@ -1,6 +1,6 @@
 ---
 name: matches-intent
-description: Validate a implementation against its original intent. Use when the user wants to check whether a PR, branch, or diff actually does what it was intended to do.
+description: Validate an implementation against its original intent. Use when the user wants to check whether a PR, branch, or diff actually does what it was intended to do, or asks if it "matches intent".
 ---
 
 # Inputs
