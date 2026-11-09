@@ -34,7 +34,7 @@ Done when every finding carries file, line, severity, and scenario.
 
 ### 4. Verify findings
 
-Dispatch one verifier subagent per `important` finding. It tries to refute the finding by reading the code and running a check. Keep a finding only if the verifier confirms it. Drop nits, style, and `pre-existing` findings from the fix list (report `pre-existing` separately).
+Dispatch one verifier subagent (model `sonnet` if available) per `important` finding. It tries to refute the finding by reading the code and running a check. Keep a finding only if the verifier confirms it. Drop nits, style, and `pre-existing` findings from the fix list (report `pre-existing` separately).
 
 Done when each kept finding is confirmed and every dropped one has a reason.
 
