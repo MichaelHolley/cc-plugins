@@ -40,12 +40,11 @@ Commit, push the branch, and open the PR (`gh pr create`). If the repo has a PR 
 
 ### 7. Review loop
 
-Spawn a subagent to review the pushed changes and return actionable findings. The loop is **green** only when a review pass returns zero actionable findings - one clean pass, not an assumption.
+Spawn a subagent to review the pushed changes and fix what it finds. It labels each finding Blocker, High, or Minor, fixes every Blocker and High finding itself, and only reports Minor ones without touching them. The loop is **green** only when a review pass finds zero Blocker or High issues - one clean pass, not an assumption.
 
-Each round:
+Run at most 3 review rounds. Each round:
 
-1. Fix every finding from the current pass.
-2. Re-run **Validate** (step 5), then commit and push so the PR reflects the fixes.
-3. Spawn a fresh review subagent over the updated diff.
+1. Spawn a fresh review-and-fix subagent over the current diff. It returns the findings, what it fixed, and any Blocker or High it could not fix.
+2. If it changed anything, re-run **Validate** (step 5), then commit and push so the PR reflects the fixes.
 
-Repeat until a review pass comes back green. **Done when** the latest review returned no actionable findings and the PR is up to date.
+Stop at the first green pass. If round 3 still leaves Blocker or High findings, stop and report them to the user instead of continuing. **Done when** the latest review found no Blocker or High issues, or 3 rounds have run and the remainder is reported, and the PR is up to date.
