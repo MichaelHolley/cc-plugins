@@ -22,7 +22,9 @@ Determine the base branch - the repo default unless the branch was cut from anot
 
 ### 3. Write the title
 
-PR titles land in history as commit messages, so match this repository's convention: read enough recent history to see the pattern, then copy the shape you find there. Within that shape, write one short human-readable line that says why the change matters - the effect on the user or the codebase, not a restatement of the diff. **Done when** the title follows the convention observed in history and reads as a reason rather than an inventory.
+PR titles land in history as commit messages, so match this repository's convention: read enough recent history to see the pattern, then copy the shape you find there. Within that shape, write one short human-readable line that says why the change matters - the effect on the user or the codebase, not a restatement of the diff.
+
+The title must stay within GitHub's 256-character limit, and should be far shorter: aim for 72 characters or fewer. Count it before filing and shorten it if it is over. **Done when** the title follows the convention observed in history, reads as a reason rather than an inventory, and is within the limit.
 
 ### 4. Write the body
 
