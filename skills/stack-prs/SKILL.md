@@ -54,4 +54,12 @@ Build bottom-up, one layer per PR:
 2. Stage that PR's paths with an explicit `git add <paths>`, commit using the PR's title as the message, then run the repo's validation so the layer lands green. Name the paths every time: `-A` and `-u` sweep the other PRs' files into the wrong commit.
 3. `gh stack add <next-branch>` to open the layer above, then repeat step 2 on it.
 
-Once every layer is committed, `gh stack submit --auto --open` pushes all branches and opens the chained PRs, taking each title from its commit message. Report the PR URLs bottom-first. **Done when** every PR in the approved stack is open and its URL is reported.
+Once every layer is committed, `gh stack submit --auto --open` pushes all branches and opens the chained PRs. Its generated titles and bodies are placeholders, so rewrite each one:
+
+- **`file-pr` available** - check out each branch, bottom-up, and invoke `file-pr` with `auto`. The PR exists already, so it updates it. Its base is the branch below, not the repo default.
+- **Otherwise** - run `gh pr edit <branch> --title ... --body ...` per PR:
+  - **Title** - match the repo's recent history, 72 characters or fewer, stating why the change matters rather than listing the diff.
+  - **Body** - the problem in plain language, then the solution in a line or two and how to verify it. No file inventory. Close with a short call on whether it needs human review and why. Fill the repo's PR template if it has one.
+  - **Stack context** - one line naming the PR below it, since this PR's diff is only its own layer.
+
+Report the PR URLs bottom-first. **Done when** every PR in the approved stack is open and its URL is reported.
