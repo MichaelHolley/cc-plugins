@@ -29,6 +29,16 @@ Do not name third-party skills in `README.md`. The list changes with every impor
 
 Never use em dashes (—). Use normal dashes (-) instead.
 
+## Commit messages
+
+Use semantic commit style: `type(scope): description`.
+
+Scope rules:
+
+- Changes touching only one or more skills: scope `skills`.
+- Changes touching only the marketplace: scope `marketplace`.
+- Anything else: omit the scope or pick a fitting one.
+
 ## Versioning
 
 Bump `version` in `.claude-plugin/plugin.json` when `skills/` changes materially.
