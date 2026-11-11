@@ -12,7 +12,7 @@ Drive the current change (branch diff against its base, or the working tree) to 
 
 ### 1. Intent and risk
 
-State the change's intent in two lines (read the PR, commit messages, linked issue). Read `REVIEW.md` and `CLAUDE.md` if present. Pick a tier from the change itself:
+State the change's intent in two lines (read the PR, commit messages, linked issue). Read `REVIEW.md`, `AGENTS.md` and `CLAUDE.md` if present. Pick a tier from the change itself:
 
 - **light**: docs, copy, additive code behind a flag. 1 round.
 - **standard**: ordinary product change. Up to 3 rounds.
