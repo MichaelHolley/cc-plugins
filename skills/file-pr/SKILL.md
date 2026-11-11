@@ -28,7 +28,14 @@ The title must stay within GitHub's 256-character limit, and should be far short
 
 ### 4. Write the body
 
-Open with the problem, in plain language a reviewer can follow without the diff: what was broken, missing, or in the way. Then explain the solution in a line or two, and how to verify it. Keep the whole thing to what a reviewer needs - file-by-file inventory belongs in the diff, not the body. Close with a short note on whether the PR needs human review, judged by the amount of change, the seams it touches (interfaces, shared modules, boundaries between components), and overall size. Say which of those drive the call, or state plainly that you are confident no human review is required. Link the issue it closes when there is one. If the repo has a pull request template, fill every section of it, applying the same order inside whatever sections it provides. **Done when** the body leads with the problem, the solution follows, and the review note states a clear call.
+Structure the body with `##` subheadings so a reviewer can scan it, in this order:
+
+- `## Problem` - in plain language a reviewer can follow without the diff: what was broken, missing, or in the way.
+- `## Solution` - a line or two on how the change addresses it.
+- `## Verify` - how to verify it.
+- `## Review` - a short note on whether the PR needs human review, judged by the amount of change, the seams it touches (interfaces, shared modules, boundaries between components), and overall size. Say which of those drive the call, or state plainly that you are confident no human review is required.
+
+Keep the whole thing to what a reviewer needs - file-by-file inventory belongs in the diff, not the body. Link the issue it closes when there is one. If the repo has a pull request template, fill every section of it and apply this order and these subheadings inside whatever sections it provides. **Done when** the body is split under the subheadings above, leads with the problem, and the review note states a clear call.
 
 ### 5. File it
 
