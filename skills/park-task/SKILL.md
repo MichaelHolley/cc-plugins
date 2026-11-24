@@ -1,11 +1,11 @@
 ---
 name: park-task
-description: Park an out-of-scope task as a one-PR GitHub issue labelled for an agent to pick up. Use when something surfaces mid-work that should be captured now and done later, or says "park this", "park task", or "side task".
+description: Park an out-of-scope task as a one-PR GitHub issue. Use when something surfaces mid-work that should be captured now and done later, or says "park this", "park task", or "side task".
 ---
 
 # Park Task
 
-The whole output of this skill is one parked issue: an agent picks it up later, on its own branch, and closes it with a single PR. The work in progress stays exactly as it is.
+The whole output of this skill is one parked issue: it gets picked up later, on its own branch, and closed with a single PR. The work in progress stays exactly as it is.
 
 ## One-PR sized
 
@@ -29,11 +29,11 @@ Body, in this order:
 
 - **Goal** - one or two sentences on what is true once the PR lands.
 - **Where** - the repo-relative paths involved.
-- **Acceptance criteria** - a checklist the picking-up agent can verify itself.
+- **Acceptance criteria** - a checklist whoever picks it up can verify themselves.
 - **Non-goals** - what to leave alone, so the PR stays small.
 
 Every line traces to something the user said or something you read in the repo. Use the repo's own terminology. When the repo has an issue template, follow it and place these four parts inside its sections. **Done when** all four parts are written and every line traces to the user or the repo.
 
 ### 4. File it
 
-Show the title and body and confirm with the user. Create the `agent-task` label if the repo lacks it, then create the issue with that label. Report the URL in one line and pick the interrupted work back up. **Done when** the issue exists and its URL is reported.
+Show the title and body and confirm with the user. Create the issue without any labels. Report the URL in one line and pick the interrupted work back up. **Done when** the issue exists and its URL is reported.
