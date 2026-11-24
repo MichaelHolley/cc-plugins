@@ -41,5 +41,5 @@ Scope rules:
 
 ## Versioning
 
-Bump `version` in `.claude-plugin/plugin.json` when `skills/` changes materially.
+Bump `version` in `.claude-plugin/plugin.json` on every change to `skills/`.
 Marketplace-only changes (adding or re-pinning a third-party entry) require a patch level bump.
