@@ -36,7 +36,7 @@ Detect and run the project's validation scripts; fix failures and re-run until g
 
 ### 6. Ship
 
-Commit, push the branch, and open the PR (`gh pr create`). If the repo has a PR template fill it out and use it as the PR body. **Done when** the PR exists and its URL is reported.
+Commit, then invoke the `file-pr` skill with `auto` if available. Otherwise push the branch and open the PR (`gh pr create`); if the repo has a PR template fill it out and use it as the PR body. **Done when** the PR exists and its URL is reported.
 
 ### 7. Review loop
 
